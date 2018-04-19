@@ -84,6 +84,24 @@ public class ChangeColorView: UIView {
         return button
     }()
     
+    let resetButton: UIButton = {
+        
+        let button = UIButton(type: .system)
+        
+        button.backgroundColor = .clear
+        
+        button.layer.borderColor = UIColor.cyan.cgColor
+        button.layer.borderWidth = 4.0
+        button.layer.cornerRadius = 7
+        button.layer.masksToBounds = true
+        
+        button.setTitle("Reset", for: .normal)
+        button.setTitleColor(.cyan, for: .normal)
+        button.titleLabel?.font = UIFont.boldSystemFont(ofSize: 30)
+        
+        return button
+    }()
+    
     let buttonStackView: UIStackView = {
         
         let stackView = UIStackView()
@@ -120,6 +138,7 @@ public class ChangeColorView: UIView {
         buttonStackView.addArrangedSubview(greenButton)
         buttonStackView.addArrangedSubview(yellowButton)
         buttonStackView.addArrangedSubview(redButton)
+        buttonStackView.addArrangedSubview(resetButton)
         
         buttonStackView.translatesAutoresizingMaskIntoConstraints = false
         
