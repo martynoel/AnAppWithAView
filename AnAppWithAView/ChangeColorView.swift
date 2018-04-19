@@ -18,14 +18,14 @@ public class ChangeColorView: UIView {
         
         button.backgroundColor = .clear
         
+        button.setTitle("Purple Background", for: .normal)
+        button.setTitleColor(.purple, for: .normal)
+        button.titleLabel?.font = UIFont.boldSystemFont(ofSize: 30)
+        
         button.layer.borderColor = UIColor.purple.cgColor
         button.layer.borderWidth = 4.0
         button.layer.cornerRadius = 7
         button.layer.masksToBounds = true
-        
-        button.setTitle("Purple Background", for: .normal)
-        button.setTitleColor(.purple, for: .normal)
-        button.titleLabel?.font = UIFont.boldSystemFont(ofSize: 30)
         
         return button
     }()
@@ -36,14 +36,14 @@ public class ChangeColorView: UIView {
         
         button.backgroundColor = .clear
         
+        button.setTitle("Green Background", for: .normal)
+        button.setTitleColor(.green, for: .normal)
+        button.titleLabel?.font = UIFont.boldSystemFont(ofSize: 30)
+        
         button.layer.borderColor = UIColor.green.cgColor
         button.layer.borderWidth = 4.0
         button.layer.cornerRadius = 7
         button.layer.masksToBounds = true
-        
-        button.setTitle("Green Background", for: .normal)
-        button.setTitleColor(.green, for: .normal)
-        button.titleLabel?.font = UIFont.boldSystemFont(ofSize: 30)
         
         return button
     }()
@@ -54,14 +54,14 @@ public class ChangeColorView: UIView {
         
         button.backgroundColor = .clear
         
+        button.setTitle("Yellow Background", for: .normal)
+        button.setTitleColor(.yellow, for: .normal)
+        button.titleLabel?.font = UIFont.boldSystemFont(ofSize: 30)
+        
         button.layer.borderColor = UIColor.yellow.cgColor
         button.layer.borderWidth = 4.0
         button.layer.cornerRadius = 7
         button.layer.masksToBounds = true
-        
-        button.setTitle("Yellow Background", for: .normal)
-        button.setTitleColor(.yellow, for: .normal)
-        button.titleLabel?.font = UIFont.boldSystemFont(ofSize: 30)
         
         return button
     }()
@@ -72,14 +72,14 @@ public class ChangeColorView: UIView {
         
         button.backgroundColor = .clear
         
+        button.setTitle("Red Background", for: .normal)
+        button.setTitleColor(.red, for: .normal)
+        button.titleLabel?.font = UIFont.boldSystemFont(ofSize: 30)
+        
         button.layer.borderColor = UIColor.red.cgColor
         button.layer.borderWidth = 4.0
         button.layer.cornerRadius = 7
         button.layer.masksToBounds = true
-        
-        button.setTitle("Red Background", for: .normal)
-        button.setTitleColor(.red, for: .normal)
-        button.titleLabel?.font = UIFont.boldSystemFont(ofSize: 30)
         
         return button
     }()
@@ -90,14 +90,14 @@ public class ChangeColorView: UIView {
         
         button.backgroundColor = .clear
         
+        button.setTitle("Reset", for: .normal)
+        button.setTitleColor(.cyan, for: .normal)
+        button.titleLabel?.font = UIFont.boldSystemFont(ofSize: 30)
+        
         button.layer.borderColor = UIColor.cyan.cgColor
         button.layer.borderWidth = 4.0
         button.layer.cornerRadius = 7
         button.layer.masksToBounds = true
-        
-        button.setTitle("Reset", for: .normal)
-        button.setTitleColor(.cyan, for: .normal)
-        button.titleLabel?.font = UIFont.boldSystemFont(ofSize: 30)
         
         return button
     }()
